@@ -1,0 +1,65 @@
+.features{
+    width: 100%;
+    height: 60vh;
+    margin-top: -20px;
+    background:#ffffff;
+}
+
+.features h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.ferp-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.ferp-row{
+    width: 300px;
+    height: 200px;
+    background: #efefef;
+    border-radius: 5px;
+    transition: .3s all ease;
+    position: relative;
+    top: 0;
+    padding: 30px;
+}
+
+.ferp-row:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: #00d2b5;
+    color: #fff;
+}
+
+.ferp-pop{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.ferp-title{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.ferp-icon{
+    width: 30px;
+    height: 31px;
+    align-items: center;
+    background-color:#00d2b5 ;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 1 10px 10px #00d2b5;
+    font-size: 30px;
+}
+
+.ferp-icon:hover{
+    outline: auto;
+    color: none;
+    outline-color: #00d2b5;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
