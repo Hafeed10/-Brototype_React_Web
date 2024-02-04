@@ -8,7 +8,7 @@ import Pages from './components/Pages/Middle';  // Adjust the path accordingly
 import Last from '../src/components/Last/Last';
 import Hop from './components/Hop/Hop';
 import Whatsapp from './components/Whatsapp/Whatsapp';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
